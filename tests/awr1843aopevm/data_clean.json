@@ -1,0 +1,6431 @@
+{
+ "meta": {
+  "generator": "synthetic (not captured from hardware)",
+  "sdkVersion": "3.5.0.4",
+  "versionField": "0x3050004",
+  "platformField": "0xa1843",
+  "frameRateHz": 10.0,
+  "rangeStep_m": 0.0421875,
+  "dopplerStep_mps": 0.44113495200451724,
+  "maxVelocity_mps": 7.058159232072276,
+  "maxRangeIF_m": 10.8,
+  "rangeFFTSize": 256,
+  "dopplerFFTSize": 32,
+  "numVirtualAntennas": 12,
+  "file": "data_clean.bin",
+  "bytes": 19616
+ },
+ "frames": [
+  {
+   "frameNumber": 1,
+   "time_s": 0.0,
+   "byteOffset": 0,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 143456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5039756298065186,
+     "y": 10.529278755187988,
+     "z": 0.34187495708465576,
+     "doppler": -3.970214605331421,
+     "snr_dB": 32.1,
+     "noise_dB": 46.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8377922177314758,
+     "y": 10.385185241699219,
+     "z": 0.1701326072216034,
+     "doppler": -3.970214605331421,
+     "snr_dB": 34.5,
+     "noise_dB": 48.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2635817527770996,
+     "y": 10.46981430053711,
+     "z": 0.15140682458877563,
+     "doppler": -3.970214605331421,
+     "snr_dB": 31.5,
+     "noise_dB": 49.8,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.4858542680740356,
+     "y": 5.977465629577637,
+     "z": -0.006462253164499998,
+     "doppler": 0.0,
+     "snr_dB": 25.9,
+     "noise_dB": 47.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.634044647216797,
+     "y": 4.023532390594482,
+     "z": 0.05552668496966362,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 21.1,
+     "noise_dB": 46.9,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -2.461974620819092,
+     "y": 4.082158088684082,
+     "z": 0.027242325246334076,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 17.2,
+     "noise_dB": 47.9,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1510,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79838,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5100,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 2,
+   "time_s": 0.1,
+   "byteOffset": 256,
+   "totalPacketLen": 288,
+   "timeCpuCycles": 163456789,
+   "numDetectedObj": 7,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.46202516555786133,
+     "y": 10.113277435302734,
+     "z": 0.15422409772872925,
+     "doppler": -3.970214605331421,
+     "snr_dB": 34.1,
+     "noise_dB": 47.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9738752841949463,
+     "y": 10.118305206298828,
+     "z": 0.20775704085826874,
+     "doppler": -3.970214605331421,
+     "snr_dB": 34.3,
+     "noise_dB": 48.6,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2117303609848022,
+     "y": 10.04930305480957,
+     "z": 0.24256958067417145,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.6,
+     "noise_dB": 48.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.568149447441101,
+     "y": 6.042863845825195,
+     "z": 0.095492422580719,
+     "doppler": 0.0,
+     "snr_dB": 25.3,
+     "noise_dB": 47.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.541999101638794,
+     "y": 3.882439136505127,
+     "z": -0.017525533214211464,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 18.5,
+     "noise_dB": 47.8,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -2.265798568725586,
+     "y": 4.047975540161133,
+     "z": -0.12430719286203384,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 23.4,
+     "noise_dB": 48.0,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -2.4742021560668945,
+     "y": 2.417767286300659,
+     "z": 0.0,
+     "doppler": 3.087944746017456,
+     "snr_dB": 11.3,
+     "noise_dB": 48.5,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1632,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79716,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5200,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 3,
+   "time_s": 0.2,
+   "byteOffset": 544,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 183456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.6201016306877136,
+     "y": 9.679957389831543,
+     "z": 0.2540391981601715,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.7,
+     "noise_dB": 47.5,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8012011647224426,
+     "y": 9.665168762207031,
+     "z": 0.3053223192691803,
+     "doppler": -3.970214605331421,
+     "snr_dB": 34.9,
+     "noise_dB": 48.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2910710573196411,
+     "y": 9.74260139465332,
+     "z": 0.19393476843833923,
+     "doppler": -3.970214605331421,
+     "snr_dB": 33.5,
+     "noise_dB": 45.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6074483394622803,
+     "y": 6.032963752746582,
+     "z": -0.06221462041139603,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 28.0,
+     "noise_dB": 46.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.417618989944458,
+     "y": 4.005530834197998,
+     "z": 0.19893629848957062,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 17.6,
+     "noise_dB": 46.6,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -2.1246328353881836,
+     "y": 4.029808521270752,
+     "z": 0.07742390781641006,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 14.7,
+     "noise_dB": 47.1,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1556,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79792,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5300,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 4,
+   "time_s": 0.3,
+   "byteOffset": 800,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 203456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.48082971572875977,
+     "y": 9.181011199951172,
+     "z": 0.2456541210412979,
+     "doppler": -3.970214605331421,
+     "snr_dB": 34.7,
+     "noise_dB": 50.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8030365705490112,
+     "y": 9.240349769592285,
+     "z": 0.3356640934944153,
+     "doppler": -3.970214605331421,
+     "snr_dB": 36.0,
+     "noise_dB": 45.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.346096396446228,
+     "y": 9.353102684020996,
+     "z": 0.09993032366037369,
+     "doppler": -3.970214605331421,
+     "snr_dB": 34.0,
+     "noise_dB": 46.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6069037914276123,
+     "y": 6.120678901672363,
+     "z": 0.017745744436979294,
+     "doppler": 0.0,
+     "snr_dB": 24.7,
+     "noise_dB": 49.0,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.350501537322998,
+     "y": 4.0006232261657715,
+     "z": -0.0745483860373497,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 17.8,
+     "noise_dB": 46.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -2.026963233947754,
+     "y": 4.033365249633789,
+     "z": 0.011962393298745155,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 17.9,
+     "noise_dB": 46.1,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1558,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79790,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5400,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 5,
+   "time_s": 0.4,
+   "byteOffset": 1056,
+   "totalPacketLen": 288,
+   "timeCpuCycles": 223456789,
+   "numDetectedObj": 7,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.6377890110015869,
+     "y": 8.961109161376953,
+     "z": 0.19701163470745087,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.8,
+     "noise_dB": 45.2,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9548345804214478,
+     "y": 9.018216133117676,
+     "z": 0.17504671216011047,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.6,
+     "noise_dB": 44.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.104744553565979,
+     "y": 8.78622817993164,
+     "z": 0.26508015394210815,
+     "doppler": -3.970214605331421,
+     "snr_dB": 36.0,
+     "noise_dB": 46.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.5613281726837158,
+     "y": 6.001591682434082,
+     "z": 0.05029365047812462,
+     "doppler": 0.0,
+     "snr_dB": 25.7,
+     "noise_dB": 48.3,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.1362993717193604,
+     "y": 3.880406141281128,
+     "z": 0.028371097519993782,
+     "doppler": -0.8822699189186096,
+     "snr_dB": 16.8,
+     "noise_dB": 48.7,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.9157379865646362,
+     "y": 4.039263725280762,
+     "z": -0.10937510430812836,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 18.3,
+     "noise_dB": 49.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -5.3459696769714355,
+     "y": 4.843893527984619,
+     "z": 0.0,
+     "doppler": 1.7645398378372192,
+     "snr_dB": 10.5,
+     "noise_dB": 48.3,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1522,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79826,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5500,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 6,
+   "time_s": 0.5,
+   "byteOffset": 1344,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 243456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5197149515151978,
+     "y": 8.503104209899902,
+     "z": 0.2224074900150299,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.1,
+     "noise_dB": 47.5,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9195507764816284,
+     "y": 8.42783260345459,
+     "z": 0.17654238641262054,
+     "doppler": -3.970214605331421,
+     "snr_dB": 38.6,
+     "noise_dB": 46.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2745275497436523,
+     "y": 8.638172149658203,
+     "z": 0.13991498947143555,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.2,
+     "noise_dB": 50.5,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.5596261024475098,
+     "y": 6.132768154144287,
+     "z": -0.04342711344361305,
+     "doppler": 0.0,
+     "snr_dB": 25.2,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.0669572353363037,
+     "y": 3.9174818992614746,
+     "z": 0.056162528693675995,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 22.6,
+     "noise_dB": 48.6,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.8633674383163452,
+     "y": 3.8784067630767822,
+     "z": 0.05202770233154297,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 22.1,
+     "noise_dB": 48.5,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1558,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79790,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5600,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 7,
+   "time_s": 0.6,
+   "byteOffset": 1600,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 263456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.46766018867492676,
+     "y": 8.124037742614746,
+     "z": 0.2766181528568268,
+     "doppler": -3.970214605331421,
+     "snr_dB": 42.3,
+     "noise_dB": 50.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8521453142166138,
+     "y": 8.048789024353027,
+     "z": 0.3175489604473114,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.3,
+     "noise_dB": 49.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.3296053409576416,
+     "y": 8.157939910888672,
+     "z": 0.22889186441898346,
+     "doppler": -3.970214605331421,
+     "snr_dB": 36.6,
+     "noise_dB": 47.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.53359055519104,
+     "y": 5.965298175811768,
+     "z": 0.03487482666969299,
+     "doppler": 0.0,
+     "snr_dB": 28.1,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.9803441762924194,
+     "y": 3.9150798320770264,
+     "z": 0.023304680362343788,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.9,
+     "noise_dB": 47.1,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.6701407432556152,
+     "y": 4.011518478393555,
+     "z": -0.009571516886353493,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 17.2,
+     "noise_dB": 45.9,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1603,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79745,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5700,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 8,
+   "time_s": 0.7,
+   "byteOffset": 1856,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 283456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.42555639147758484,
+     "y": 7.659908294677734,
+     "z": 0.31354403495788574,
+     "doppler": -3.970214605331421,
+     "snr_dB": 43.5,
+     "noise_dB": 48.2,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8551884293556213,
+     "y": 7.5872626304626465,
+     "z": 0.09818297624588013,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.3,
+     "noise_dB": 47.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2218518257141113,
+     "y": 7.663504123687744,
+     "z": 0.1849084049463272,
+     "doppler": -3.970214605331421,
+     "snr_dB": 37.7,
+     "noise_dB": 45.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.5871678590774536,
+     "y": 5.907626628875732,
+     "z": 0.028822336345911026,
+     "doppler": 0.0,
+     "snr_dB": 25.4,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.6645264625549316,
+     "y": 4.011409282684326,
+     "z": 0.14031854271888733,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 19.3,
+     "noise_dB": 48.8,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.4501417875289917,
+     "y": 3.9166877269744873,
+     "z": 0.01789461076259613,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.4,
+     "noise_dB": 49.6,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1503,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79845,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5800,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 9,
+   "time_s": 0.8,
+   "byteOffset": 2112,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 303456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.6961297392845154,
+     "y": 7.389266490936279,
+     "z": 0.21158798038959503,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.1,
+     "noise_dB": 49.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.6199199557304382,
+     "y": 7.355229377746582,
+     "z": 0.14905618131160736,
+     "doppler": -3.970214605331421,
+     "snr_dB": 38.5,
+     "noise_dB": 50.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.1485743522644043,
+     "y": 7.329943656921387,
+     "z": 0.28866124153137207,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.0,
+     "noise_dB": 49.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.557698130607605,
+     "y": 6.089865207672119,
+     "z": -0.011373776011168957,
+     "doppler": 0.0,
+     "snr_dB": 25.5,
+     "noise_dB": 46.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.8217723369598389,
+     "y": 4.037425518035889,
+     "z": -0.049706242978572845,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 22.4,
+     "noise_dB": 48.8,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.288576364517212,
+     "y": 4.1028594970703125,
+     "z": -0.15165218710899353,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.9,
+     "noise_dB": 47.0,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1593,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79755,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 5900,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 10,
+   "time_s": 0.9,
+   "byteOffset": 2368,
+   "totalPacketLen": 288,
+   "timeCpuCycles": 323456789,
+   "numDetectedObj": 7,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.8021543025970459,
+     "y": 7.039160251617432,
+     "z": 0.19856689870357513,
+     "doppler": -3.970214605331421,
+     "snr_dB": 38.8,
+     "noise_dB": 47.6,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9279381036758423,
+     "y": 6.7642436027526855,
+     "z": 0.30433180928230286,
+     "doppler": -3.970214605331421,
+     "snr_dB": 36.4,
+     "noise_dB": 49.5,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.3684271574020386,
+     "y": 6.994686603546143,
+     "z": 0.18496260046958923,
+     "doppler": -3.970214605331421,
+     "snr_dB": 37.9,
+     "noise_dB": 49.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6478943824768066,
+     "y": 6.065971851348877,
+     "z": -0.03794834390282631,
+     "doppler": 0.0,
+     "snr_dB": 27.3,
+     "noise_dB": 48.3,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.5335825681686401,
+     "y": 4.020564556121826,
+     "z": 0.008407551795244217,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 16.6,
+     "noise_dB": 48.4,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.2741343975067139,
+     "y": 3.8887457847595215,
+     "z": -0.015363101847469807,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 21.5,
+     "noise_dB": 47.5,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.40429964661598206,
+     "y": 9.272439956665039,
+     "z": 0.0,
+     "doppler": -3.5290796756744385,
+     "snr_dB": 10.1,
+     "noise_dB": 50.2,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1631,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79717,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6000,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 11,
+   "time_s": 1.0,
+   "byteOffset": 2656,
+   "totalPacketLen": 288,
+   "timeCpuCycles": 343456789,
+   "numDetectedObj": 7,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.6056100726127625,
+     "y": 6.4139227867126465,
+     "z": 0.3972676694393158,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.0,
+     "noise_dB": 48.5,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8460971117019653,
+     "y": 6.608932018280029,
+     "z": 0.19156183302402496,
+     "doppler": -3.970214605331421,
+     "snr_dB": 40.9,
+     "noise_dB": 49.8,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2448451519012451,
+     "y": 6.410003662109375,
+     "z": 0.348642498254776,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.1,
+     "noise_dB": 47.6,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6657170057296753,
+     "y": 5.929837226867676,
+     "z": -0.01784645766019821,
+     "doppler": 0.0,
+     "snr_dB": 27.6,
+     "noise_dB": 50.9,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.5298584699630737,
+     "y": 3.8837735652923584,
+     "z": 0.1396786868572235,
+     "doppler": 0.0,
+     "snr_dB": 21.4,
+     "noise_dB": 48.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -1.0929584503173828,
+     "y": 3.9867351055145264,
+     "z": -0.06664909422397614,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.2,
+     "noise_dB": 47.6,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.5943126678466797,
+     "y": 8.585704803466797,
+     "z": 0.0,
+     "doppler": 4.852484703063965,
+     "snr_dB": 10.4,
+     "noise_dB": 49.1,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1573,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79775,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6100,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 12,
+   "time_s": 1.1,
+   "byteOffset": 2944,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 363456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.44632890820503235,
+     "y": 6.179606914520264,
+     "z": 0.26949116587638855,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.7,
+     "noise_dB": 48.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8768860101699829,
+     "y": 6.262613773345947,
+     "z": 0.2364383190870285,
+     "doppler": -3.970214605331421,
+     "snr_dB": 37.9,
+     "noise_dB": 47.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2111948728561401,
+     "y": 6.122767448425293,
+     "z": 0.17071044445037842,
+     "doppler": -3.970214605331421,
+     "snr_dB": 38.4,
+     "noise_dB": 48.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6137456893920898,
+     "y": 6.07491397857666,
+     "z": -0.06524231284856796,
+     "doppler": 0.0,
+     "snr_dB": 27.9,
+     "noise_dB": 49.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.2288212776184082,
+     "y": 4.211820602416992,
+     "z": 0.026837926357984543,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 22.5,
+     "noise_dB": 45.5,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.9412413239479065,
+     "y": 4.112316608428955,
+     "z": -0.027694104239344597,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 22.9,
+     "noise_dB": 46.9,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1589,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79759,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6200,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 13,
+   "time_s": 1.2,
+   "byteOffset": 3200,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 383456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5101165175437927,
+     "y": 5.494846343994141,
+     "z": 0.29889151453971863,
+     "doppler": -3.970214605331421,
+     "snr_dB": 43.3,
+     "noise_dB": 46.2,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8099609017372131,
+     "y": 5.887327194213867,
+     "z": 0.25933215022087097,
+     "doppler": -3.970214605331421,
+     "snr_dB": 41.6,
+     "noise_dB": 49.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2454195022583008,
+     "y": 5.6367950439453125,
+     "z": 0.28330135345458984,
+     "doppler": -3.970214605331421,
+     "snr_dB": 37.3,
+     "noise_dB": 47.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.712965726852417,
+     "y": 5.915728569030762,
+     "z": 0.08832576870918274,
+     "doppler": 0.0,
+     "snr_dB": 28.7,
+     "noise_dB": 48.7,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.2332082986831665,
+     "y": 3.9883313179016113,
+     "z": -0.12682466208934784,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.2,
+     "noise_dB": 45.0,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.7964876294136047,
+     "y": 4.0136799812316895,
+     "z": -0.044504694640636444,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 19.5,
+     "noise_dB": 48.1,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1518,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79830,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6300,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 14,
+   "time_s": 1.3,
+   "byteOffset": 3456,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 403456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.567166268825531,
+     "y": 5.363831043243408,
+     "z": 0.26007944345474243,
+     "doppler": -3.970214605331421,
+     "snr_dB": 37.7,
+     "noise_dB": 46.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9700157642364502,
+     "y": 5.267829895019531,
+     "z": 0.12325587868690491,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.3,
+     "noise_dB": 47.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.3903661966323853,
+     "y": 5.472226142883301,
+     "z": 0.28186386823654175,
+     "doppler": -4.411349296569824,
+     "snr_dB": 39.7,
+     "noise_dB": 49.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6347172260284424,
+     "y": 5.981438636779785,
+     "z": 0.09731297940015793,
+     "doppler": 0.0,
+     "snr_dB": 31.3,
+     "noise_dB": 46.7,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.1782746315002441,
+     "y": 4.094781398773193,
+     "z": 0.0045907022431492805,
+     "doppler": 0.0,
+     "snr_dB": 20.7,
+     "noise_dB": 48.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.8224565386772156,
+     "y": 4.094680309295654,
+     "z": 0.02885846048593521,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.1,
+     "noise_dB": 46.2,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1576,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79772,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6400,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 15,
+   "time_s": 1.4,
+   "byteOffset": 3712,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 423456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5752530097961426,
+     "y": 4.806275367736816,
+     "z": 0.32628393173217773,
+     "doppler": -3.970214605331421,
+     "snr_dB": 35.0,
+     "noise_dB": 47.2,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8513352870941162,
+     "y": 4.947483062744141,
+     "z": 0.03431738168001175,
+     "doppler": -3.970214605331421,
+     "snr_dB": 39.8,
+     "noise_dB": 49.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2029106616973877,
+     "y": 4.906817436218262,
+     "z": 0.3241225779056549,
+     "doppler": -3.970214605331421,
+     "snr_dB": 41.6,
+     "noise_dB": 46.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6456600427627563,
+     "y": 5.978924751281738,
+     "z": -0.060342516750097275,
+     "doppler": 0.0,
+     "snr_dB": 26.5,
+     "noise_dB": 48.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.9170033931732178,
+     "y": 3.944127082824707,
+     "z": -0.07394067943096161,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 20.1,
+     "noise_dB": 44.5,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.684651792049408,
+     "y": 4.034257888793945,
+     "z": 0.04487571865320206,
+     "doppler": 0.0,
+     "snr_dB": 24.4,
+     "noise_dB": 49.6,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1569,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79779,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6500,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 16,
+   "time_s": 1.5,
+   "byteOffset": 3968,
+   "totalPacketLen": 288,
+   "timeCpuCycles": 443456789,
+   "numDetectedObj": 7,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5290639400482178,
+     "y": 4.519675254821777,
+     "z": 0.22812838852405548,
+     "doppler": -3.970214605331421,
+     "snr_dB": 40.0,
+     "noise_dB": 49.6,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.7852343916893005,
+     "y": 4.39846658706665,
+     "z": 0.1859104186296463,
+     "doppler": -3.970214605331421,
+     "snr_dB": 45.3,
+     "noise_dB": 51.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.1507344245910645,
+     "y": 4.403407096862793,
+     "z": 0.21267667412757874,
+     "doppler": -3.970214605331421,
+     "snr_dB": 41.7,
+     "noise_dB": 48.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.586143970489502,
+     "y": 6.038915634155273,
+     "z": -0.007839782163500786,
+     "doppler": 0.0,
+     "snr_dB": 32.7,
+     "noise_dB": 46.2,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.7871668934822083,
+     "y": 3.9297268390655518,
+     "z": -0.013253440149128437,
+     "doppler": 0.0,
+     "snr_dB": 21.0,
+     "noise_dB": 50.5,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.5674964785575867,
+     "y": 4.0079803466796875,
+     "z": 0.1286187767982483,
+     "doppler": 0.0,
+     "snr_dB": 25.7,
+     "noise_dB": 51.0,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 5.834413528442383,
+     "y": 4.170780181884766,
+     "z": 0.0,
+     "doppler": -3.087944746017456,
+     "snr_dB": 11.4,
+     "noise_dB": 48.3,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1611,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79737,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6600,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 17,
+   "time_s": 1.6,
+   "byteOffset": 4256,
+   "totalPacketLen": 288,
+   "timeCpuCycles": 463456789,
+   "numDetectedObj": 7,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5498678088188171,
+     "y": 4.181020259857178,
+     "z": 0.12069851160049438,
+     "doppler": -3.970214605331421,
+     "snr_dB": 42.2,
+     "noise_dB": 46.4,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9407297372817993,
+     "y": 4.197286128997803,
+     "z": 0.12124241888523102,
+     "doppler": -3.970214605331421,
+     "snr_dB": 42.2,
+     "noise_dB": 47.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2054073810577393,
+     "y": 4.032639980316162,
+     "z": 0.287502259016037,
+     "doppler": -3.970214605331421,
+     "snr_dB": 40.7,
+     "noise_dB": 46.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6099488735198975,
+     "y": 6.074306011199951,
+     "z": -0.15453943610191345,
+     "doppler": 0.0,
+     "snr_dB": 27.0,
+     "noise_dB": 48.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.7699636816978455,
+     "y": 4.0617265701293945,
+     "z": 0.05088144540786743,
+     "doppler": 0.0,
+     "snr_dB": 20.4,
+     "noise_dB": 47.1,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.38159796595573425,
+     "y": 4.242886543273926,
+     "z": 0.08879703283309937,
+     "doppler": 0.0,
+     "snr_dB": 19.1,
+     "noise_dB": 47.8,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.1137233972549438,
+     "y": 1.2110629081726074,
+     "z": 0.0,
+     "doppler": -5.293619632720947,
+     "snr_dB": 10.3,
+     "noise_dB": 47.0,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1533,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79815,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6700,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 18,
+   "time_s": 1.7,
+   "byteOffset": 4544,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 483456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.602181077003479,
+     "y": 3.7010724544525146,
+     "z": 0.19266186654567719,
+     "doppler": -3.970214605331421,
+     "snr_dB": 43.1,
+     "noise_dB": 46.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9607647657394409,
+     "y": 3.70512318611145,
+     "z": 0.2956251800060272,
+     "doppler": -3.970214605331421,
+     "snr_dB": 46.2,
+     "noise_dB": 47.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.3283029794692993,
+     "y": 3.6900272369384766,
+     "z": 0.11257101595401764,
+     "doppler": -3.970214605331421,
+     "snr_dB": 44.7,
+     "noise_dB": 49.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6232116222381592,
+     "y": 5.941624164581299,
+     "z": 0.013678304851055145,
+     "doppler": 0.0,
+     "snr_dB": 28.2,
+     "noise_dB": 47.7,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.7525661587715149,
+     "y": 4.065055847167969,
+     "z": 0.04494274780154228,
+     "doppler": 0.0,
+     "snr_dB": 18.8,
+     "noise_dB": 46.2,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.28996795415878296,
+     "y": 3.9125306606292725,
+     "z": 0.03720098361372948,
+     "doppler": 0.0,
+     "snr_dB": 16.4,
+     "noise_dB": 50.4,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1513,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79835,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6800,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 19,
+   "time_s": 1.8,
+   "byteOffset": 4800,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 503456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5209718346595764,
+     "y": 3.375783920288086,
+     "z": 0.09920880943536758,
+     "doppler": -3.970214605331421,
+     "snr_dB": 40.6,
+     "noise_dB": 48.6,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.9840494394302368,
+     "y": 3.306633472442627,
+     "z": 0.25514131784439087,
+     "doppler": -3.970214605331421,
+     "snr_dB": 44.2,
+     "noise_dB": 49.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2567262649536133,
+     "y": 3.1306867599487305,
+     "z": 0.10032150894403458,
+     "doppler": -3.970214605331421,
+     "snr_dB": 43.9,
+     "noise_dB": 49.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6100845336914062,
+     "y": 5.857625484466553,
+     "z": -0.038428403437137604,
+     "doppler": 0.0,
+     "snr_dB": 26.3,
+     "noise_dB": 48.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.509748637676239,
+     "y": 4.060276031494141,
+     "z": 0.017680298537015915,
+     "doppler": 0.0,
+     "snr_dB": 20.5,
+     "noise_dB": 48.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.2811402678489685,
+     "y": 4.040229797363281,
+     "z": -0.0013659610413014889,
+     "doppler": 0.0,
+     "snr_dB": 16.1,
+     "noise_dB": 48.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1596,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79752,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 6900,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 20,
+   "time_s": 1.9,
+   "byteOffset": 5056,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 523456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5904985070228577,
+     "y": 2.8841805458068848,
+     "z": 0.23186463117599487,
+     "doppler": -3.970214605331421,
+     "snr_dB": 48.3,
+     "noise_dB": 46.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.7972981333732605,
+     "y": 2.9573333263397217,
+     "z": 0.3208889365196228,
+     "doppler": -3.970214605331421,
+     "snr_dB": 48.6,
+     "noise_dB": 51.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.311565637588501,
+     "y": 2.962704658508301,
+     "z": 0.23350171744823456,
+     "doppler": -3.970214605331421,
+     "snr_dB": 43.4,
+     "noise_dB": 48.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.573643445968628,
+     "y": 5.954861164093018,
+     "z": -0.03425034508109093,
+     "doppler": 0.0,
+     "snr_dB": 28.2,
+     "noise_dB": 46.3,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.42738035321235657,
+     "y": 3.984564781188965,
+     "z": 0.05612726882100105,
+     "doppler": 0.0,
+     "snr_dB": 24.3,
+     "noise_dB": 49.4,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -0.07543732970952988,
+     "y": 4.131844520568848,
+     "z": 0.12339667975902557,
+     "doppler": 0.0,
+     "snr_dB": 15.9,
+     "noise_dB": 49.4,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1604,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79744,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7000,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 21,
+   "time_s": 2.0,
+   "byteOffset": 5312,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 543456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.6115403771400452,
+     "y": 2.3974244594573975,
+     "z": 0.27167290449142456,
+     "doppler": -3.970214605331421,
+     "snr_dB": 46.6,
+     "noise_dB": 46.0,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8733438849449158,
+     "y": 2.4635984897613525,
+     "z": 0.09719885885715485,
+     "doppler": -3.970214605331421,
+     "snr_dB": 45.5,
+     "noise_dB": 48.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2530548572540283,
+     "y": 2.474212646484375,
+     "z": 0.2467176914215088,
+     "doppler": -3.970214605331421,
+     "snr_dB": 46.8,
+     "noise_dB": 48.3,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.5570260286331177,
+     "y": 6.04542350769043,
+     "z": -0.11375214159488678,
+     "doppler": 0.0,
+     "snr_dB": 26.8,
+     "noise_dB": 47.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.41215285658836365,
+     "y": 4.028746604919434,
+     "z": -0.04279622063040733,
+     "doppler": 0.0,
+     "snr_dB": 17.5,
+     "noise_dB": 45.9,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.04062897339463234,
+     "y": 3.922855854034424,
+     "z": 0.053975049406290054,
+     "doppler": 0.0,
+     "snr_dB": 24.5,
+     "noise_dB": 50.6,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1574,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79774,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7100,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 22,
+   "time_s": 2.1,
+   "byteOffset": 5568,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 563456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.5544089674949646,
+     "y": 2.027230739593506,
+     "z": 0.18007983267307281,
+     "doppler": -3.970214605331421,
+     "snr_dB": 49.5,
+     "noise_dB": 49.6,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.7734422087669373,
+     "y": 2.1216678619384766,
+     "z": 0.30027690529823303,
+     "doppler": -3.970214605331421,
+     "snr_dB": 47.0,
+     "noise_dB": 49.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.3086438179016113,
+     "y": 2.1476681232452393,
+     "z": 0.28670433163642883,
+     "doppler": -3.970214605331421,
+     "snr_dB": 45.3,
+     "noise_dB": 47.2,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.6455333232879639,
+     "y": 5.935285568237305,
+     "z": -0.0500350184738636,
+     "doppler": 0.0,
+     "snr_dB": 22.5,
+     "noise_dB": 44.7,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.15037743747234344,
+     "y": 4.004295349121094,
+     "z": -0.07461274415254593,
+     "doppler": 0.0,
+     "snr_dB": 22.1,
+     "noise_dB": 50.0,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.08076714724302292,
+     "y": 3.9631898403167725,
+     "z": 0.11307230591773987,
+     "doppler": 0.0,
+     "snr_dB": 23.5,
+     "noise_dB": 49.6,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1584,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79764,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7200,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 23,
+   "time_s": 2.2,
+   "byteOffset": 5824,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 583456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.7061522006988525,
+     "y": 1.6641790866851807,
+     "z": 0.15059801936149597,
+     "doppler": -3.970214605331421,
+     "snr_dB": 48.1,
+     "noise_dB": 48.5,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.8707950115203857,
+     "y": 1.6804755926132202,
+     "z": 0.14759007096290588,
+     "doppler": -3.970214605331421,
+     "snr_dB": 50.1,
+     "noise_dB": 48.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.2597877979278564,
+     "y": 1.6722962856292725,
+     "z": 0.2565593123435974,
+     "doppler": -3.970214605331421,
+     "snr_dB": 49.1,
+     "noise_dB": 48.8,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.64472234249115,
+     "y": 6.110284328460693,
+     "z": -0.0669245719909668,
+     "doppler": 0.0,
+     "snr_dB": 26.7,
+     "noise_dB": 50.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.09843757748603821,
+     "y": 4.048367500305176,
+     "z": -0.05941671505570412,
+     "doppler": 0.0,
+     "snr_dB": 21.4,
+     "noise_dB": 47.2,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.27102261781692505,
+     "y": 4.0831298828125,
+     "z": 0.02441859059035778,
+     "doppler": 0.0,
+     "snr_dB": 18.8,
+     "noise_dB": 50.3,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1502,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79846,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7300,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 24,
+   "time_s": 2.3,
+   "byteOffset": 6080,
+   "totalPacketLen": 256,
+   "timeCpuCycles": 603456789,
+   "numDetectedObj": 6,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": 0.6027140617370605,
+     "y": 1.2848608493804932,
+     "z": 0.20808634161949158,
+     "doppler": -3.970214605331421,
+     "snr_dB": 52.1,
+     "noise_dB": 48.7,
+     "truthLabel": "car"
+    },
+    {
+     "x": 0.7665997743606567,
+     "y": 1.2541747093200684,
+     "z": 0.14002591371536255,
+     "doppler": -3.970214605331421,
+     "snr_dB": 51.5,
+     "noise_dB": 47.9,
+     "truthLabel": "car"
+    },
+    {
+     "x": 1.3460888862609863,
+     "y": 1.281912088394165,
+     "z": 0.3857605457305908,
+     "doppler": -3.970214605331421,
+     "snr_dB": 46.4,
+     "noise_dB": 49.1,
+     "truthLabel": "car"
+    },
+    {
+     "x": -1.5733604431152344,
+     "y": 6.085789680480957,
+     "z": 0.026660526171326637,
+     "doppler": 0.0,
+     "snr_dB": 25.2,
+     "noise_dB": 49.9,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.1118965595960617,
+     "y": 4.004387378692627,
+     "z": 0.1221563071012497,
+     "doppler": 0.0,
+     "snr_dB": 20.1,
+     "noise_dB": 48.8,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.5583507418632507,
+     "y": 4.134176254272461,
+     "z": 0.20125913619995117,
+     "doppler": 0.0,
+     "snr_dB": 20.1,
+     "noise_dB": 46.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1592,
+    "transmitOutputTime": 14236,
+    "interFrameProcessingMargin": 79756,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7400,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 25,
+   "time_s": 2.4,
+   "byteOffset": 6336,
+   "totalPacketLen": 224,
+   "timeCpuCycles": 623456789,
+   "numDetectedObj": 4,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6208384037017822,
+     "y": 5.94158935546875,
+     "z": 0.09110227972269058,
+     "doppler": 0.0,
+     "snr_dB": 26.3,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.1814327836036682,
+     "y": 4.08809757232666,
+     "z": 0.023233473300933838,
+     "doppler": 0.0,
+     "snr_dB": 19.8,
+     "noise_dB": 46.9,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.5446758270263672,
+     "y": 4.013089656829834,
+     "z": -0.030643148347735405,
+     "doppler": 0.0,
+     "snr_dB": 20.8,
+     "noise_dB": 48.6,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.1430772542953491,
+     "y": 6.695310592651367,
+     "z": 0.0,
+     "doppler": -2.6468098163604736,
+     "snr_dB": 12.6,
+     "noise_dB": 46.8,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1459,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80583,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7500,
+    "tmpRx0Sens": 44,
+    "tmpRx1Sens": 44,
+    "tmpRx2Sens": 45,
+    "tmpRx3Sens": 45,
+    "tmpTx0Sens": 47,
+    "tmpTx1Sens": 47,
+    "tmpTx2Sens": 48,
+    "tmpPmSens": 46,
+    "tmpDig0Sens": 43,
+    "tmpDig1Sens": 43
+   }
+  },
+  {
+   "frameNumber": 26,
+   "time_s": 2.5,
+   "byteOffset": 6560,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 643456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.630653977394104,
+     "y": 5.939579963684082,
+     "z": -0.016085440292954445,
+     "doppler": 0.0,
+     "snr_dB": 23.4,
+     "noise_dB": 45.9,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.35599255561828613,
+     "y": 4.1159467697143555,
+     "z": 0.1590837836265564,
+     "doppler": 0.0,
+     "snr_dB": 21.9,
+     "noise_dB": 49.4,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.7242826223373413,
+     "y": 3.855295181274414,
+     "z": 0.07399401068687439,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 20.1,
+     "noise_dB": 45.8,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1491,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80551,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7600,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 27,
+   "time_s": 2.6,
+   "byteOffset": 6752,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 663456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5657405853271484,
+     "y": 6.000004291534424,
+     "z": -0.08822531998157501,
+     "doppler": 0.0,
+     "snr_dB": 26.5,
+     "noise_dB": 50.4,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.5300005674362183,
+     "y": 3.972043037414551,
+     "z": 0.06733855605125427,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 22.8,
+     "noise_dB": 45.7,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.7688489556312561,
+     "y": 4.061915397644043,
+     "z": 0.052648644894361496,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 19.9,
+     "noise_dB": 47.0,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1480,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80562,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7700,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 28,
+   "time_s": 2.7,
+   "byteOffset": 6944,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 683456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6742300987243652,
+     "y": 6.014932632446289,
+     "z": 0.04418070241808891,
+     "doppler": 0.0,
+     "snr_dB": 28.2,
+     "noise_dB": 47.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.5977172255516052,
+     "y": 4.047743797302246,
+     "z": 0.06709853559732437,
+     "doppler": 0.0,
+     "snr_dB": 20.9,
+     "noise_dB": 46.7,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.092781901359558,
+     "y": 3.987266778945923,
+     "z": -0.02424723282456398,
+     "doppler": 0.0,
+     "snr_dB": 20.3,
+     "noise_dB": 48.2,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1436,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80606,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7800,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 29,
+   "time_s": 2.8,
+   "byteOffset": 7136,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 703456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.516873836517334,
+     "y": 6.012882709503174,
+     "z": 0.06093519926071167,
+     "doppler": 0.0,
+     "snr_dB": 27.8,
+     "noise_dB": 47.3,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.7521226406097412,
+     "y": 3.890259027481079,
+     "z": 0.1624109297990799,
+     "doppler": 0.0,
+     "snr_dB": 22.8,
+     "noise_dB": 48.4,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.8989264965057373,
+     "y": 4.035444259643555,
+     "z": 0.013281349092721939,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 21.6,
+     "noise_dB": 46.5,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1516,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80526,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 7900,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 30,
+   "time_s": 2.9,
+   "byteOffset": 7328,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 723456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6394284963607788,
+     "y": 5.980190277099609,
+     "z": 0.09475363790988922,
+     "doppler": 0.0,
+     "snr_dB": 26.2,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.8624235391616821,
+     "y": 4.043153285980225,
+     "z": 0.04684356227517128,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 24.3,
+     "noise_dB": 48.7,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.069393277168274,
+     "y": 3.8184351921081543,
+     "z": 0.04617471247911453,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 17.0,
+     "noise_dB": 47.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1463,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80579,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8000,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 31,
+   "time_s": 3.0,
+   "byteOffset": 7520,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 743456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6462576389312744,
+     "y": 5.978925704956055,
+     "z": -0.04074999690055847,
+     "doppler": 0.0,
+     "snr_dB": 29.0,
+     "noise_dB": 46.9,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.9869258999824524,
+     "y": 3.8838860988616943,
+     "z": -0.06298746168613434,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 22.2,
+     "noise_dB": 49.2,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.3151308298110962,
+     "y": 4.141496658325195,
+     "z": -0.013291320763528347,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 18.7,
+     "noise_dB": 47.2,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1429,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80613,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8100,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 32,
+   "time_s": 3.1,
+   "byteOffset": 7712,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 763456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5290749073028564,
+     "y": 6.009573459625244,
+     "z": 0.07957718521356583,
+     "doppler": 0.0,
+     "snr_dB": 24.9,
+     "noise_dB": 46.9,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.965725839138031,
+     "y": 4.019554615020752,
+     "z": 0.060097452253103256,
+     "doppler": 0.0,
+     "snr_dB": 21.9,
+     "noise_dB": 45.4,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.3854624032974243,
+     "y": 3.939598798751831,
+     "z": 0.06106852740049362,
+     "doppler": 0.0,
+     "snr_dB": 20.0,
+     "noise_dB": 49.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1435,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80607,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8200,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 33,
+   "time_s": 3.2,
+   "byteOffset": 7904,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 783456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.564454197883606,
+     "y": 5.957344055175781,
+     "z": 0.02085796184837818,
+     "doppler": 0.0,
+     "snr_dB": 28.2,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.1186857223510742,
+     "y": 3.8924131393432617,
+     "z": 0.012733285315334797,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 19.5,
+     "noise_dB": 47.6,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.6244302988052368,
+     "y": 4.164761543273926,
+     "z": 0.11685526371002197,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 20.9,
+     "noise_dB": 47.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1455,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80587,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8300,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 34,
+   "time_s": 3.3,
+   "byteOffset": 8096,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 803456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5079573392868042,
+     "y": 5.971787452697754,
+     "z": 0.04146437346935272,
+     "doppler": 0.0,
+     "snr_dB": 29.5,
+     "noise_dB": 47.4,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.1569111347198486,
+     "y": 4.012181282043457,
+     "z": 0.08736840635538101,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 21.7,
+     "noise_dB": 46.4,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.434255599975586,
+     "y": 3.8325700759887695,
+     "z": -0.01776563562452793,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 17.7,
+     "noise_dB": 49.6,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1472,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80570,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8400,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 35,
+   "time_s": 3.4,
+   "byteOffset": 8288,
+   "totalPacketLen": 224,
+   "timeCpuCycles": 823456789,
+   "numDetectedObj": 4,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6005363464355469,
+     "y": 5.991436958312988,
+     "z": -0.01849578320980072,
+     "doppler": 0.0,
+     "snr_dB": 30.5,
+     "noise_dB": 50.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.3063546419143677,
+     "y": 3.965101957321167,
+     "z": 0.12279062718153,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 22.2,
+     "noise_dB": 46.2,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.765297770500183,
+     "y": 4.015868663787842,
+     "z": -0.0817285031080246,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 23.4,
+     "noise_dB": 48.6,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.030708979815244675,
+     "y": 7.129621505737305,
+     "z": 0.0,
+     "doppler": -5.293619632720947,
+     "snr_dB": 11.0,
+     "noise_dB": 45.1,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1470,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80572,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8500,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 36,
+   "time_s": 3.5,
+   "byteOffset": 8512,
+   "totalPacketLen": 224,
+   "timeCpuCycles": 843456789,
+   "numDetectedObj": 4,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5083909034729004,
+     "y": 6.188696384429932,
+     "z": 0.07532854378223419,
+     "doppler": 0.0,
+     "snr_dB": 26.7,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.520154356956482,
+     "y": 4.070563316345215,
+     "z": -0.03720736876130104,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 19.0,
+     "noise_dB": 48.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.7344868183135986,
+     "y": 4.167367458343506,
+     "z": 0.036906249821186066,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 22.1,
+     "noise_dB": 48.5,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": -5.432614326477051,
+     "y": 7.577149391174316,
+     "z": 0.0,
+     "doppler": -6.6170244216918945,
+     "snr_dB": 11.4,
+     "noise_dB": 47.6,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1501,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80541,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8600,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 37,
+   "time_s": 3.6,
+   "byteOffset": 8736,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 863456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6126160621643066,
+     "y": 6.03159236907959,
+     "z": 0.061453815549612045,
+     "doppler": 0.0,
+     "snr_dB": 29.4,
+     "noise_dB": 49.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.64398992061615,
+     "y": 4.067854404449463,
+     "z": 0.003794481512159109,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 15.2,
+     "noise_dB": 48.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 1.9954324960708618,
+     "y": 4.142858028411865,
+     "z": 0.024556662887334824,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 18.4,
+     "noise_dB": 46.3,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1534,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80508,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8700,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 38,
+   "time_s": 3.7,
+   "byteOffset": 8928,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 883456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6003416776657104,
+     "y": 6.078808784484863,
+     "z": 0.000473579770186916,
+     "doppler": 0.0,
+     "snr_dB": 29.6,
+     "noise_dB": 44.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.7573012113571167,
+     "y": 3.926452398300171,
+     "z": -0.1083957627415657,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 14.8,
+     "noise_dB": 48.8,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 2.1894853115081787,
+     "y": 3.849774122238159,
+     "z": -0.08674057573080063,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 18.2,
+     "noise_dB": 46.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1436,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80606,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8800,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 39,
+   "time_s": 3.8,
+   "byteOffset": 9120,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 903456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.655383825302124,
+     "y": 6.107771396636963,
+     "z": -0.00048709200927987695,
+     "doppler": 0.0,
+     "snr_dB": 29.1,
+     "noise_dB": 47.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.9218803644180298,
+     "y": 3.943908929824829,
+     "z": 0.045987240970134735,
+     "doppler": 0.8822699189186096,
+     "snr_dB": 22.3,
+     "noise_dB": 49.2,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 2.306797504425049,
+     "y": 3.976175308227539,
+     "z": -0.1197623461484909,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 24.3,
+     "noise_dB": 48.2,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1450,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80592,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 8900,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 40,
+   "time_s": 3.9,
+   "byteOffset": 9312,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 923456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5581823587417603,
+     "y": 6.045984268188477,
+     "z": 0.05054313316941261,
+     "doppler": 0.0,
+     "snr_dB": 22.7,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 2.0722548961639404,
+     "y": 4.057664394378662,
+     "z": -0.02309582382440567,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 20.4,
+     "noise_dB": 48.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 2.2743425369262695,
+     "y": 4.090106010437012,
+     "z": 0.1647227257490158,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 22.0,
+     "noise_dB": 47.7,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1441,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80601,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9000,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 41,
+   "time_s": 4.0,
+   "byteOffset": 9504,
+   "totalPacketLen": 224,
+   "timeCpuCycles": 943456789,
+   "numDetectedObj": 4,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.631666660308838,
+     "y": 6.070358753204346,
+     "z": 0.037646979093551636,
+     "doppler": 0.0,
+     "snr_dB": 27.2,
+     "noise_dB": 51.3,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 2.227205991744995,
+     "y": 3.877497434616089,
+     "z": 0.04725175350904465,
+     "doppler": 0.8822699189186096,
+     "snr_dB": 18.0,
+     "noise_dB": 46.0,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 2.4212543964385986,
+     "y": 4.057476043701172,
+     "z": -0.006409057881683111,
+     "doppler": 0.4411349594593048,
+     "snr_dB": 18.7,
+     "noise_dB": 45.7,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 0.9332403540611267,
+     "y": 1.0892630815505981,
+     "z": 0.0,
+     "doppler": 0.8822699189186096,
+     "snr_dB": 12.9,
+     "noise_dB": 49.0,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1540,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80502,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9100,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 42,
+   "time_s": 4.1,
+   "byteOffset": 9728,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 963456789,
+   "numDetectedObj": 3,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6274807453155518,
+     "y": 6.115256309509277,
+     "z": 0.01058097742497921,
+     "doppler": 0.0,
+     "snr_dB": 25.2,
+     "noise_dB": 49.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 2.2543091773986816,
+     "y": 4.054300785064697,
+     "z": -0.12702816724777222,
+     "doppler": 0.8822699189186096,
+     "snr_dB": 22.5,
+     "noise_dB": 44.3,
+     "truthLabel": "pedestrian"
+    },
+    {
+     "x": 2.542428493499756,
+     "y": 3.932050943374634,
+     "z": 0.06136307120323181,
+     "doppler": 0.8822699189186096,
+     "snr_dB": 17.5,
+     "noise_dB": 46.0,
+     "truthLabel": "pedestrian"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1525,
+    "transmitOutputTime": 13542,
+    "interFrameProcessingMargin": 80517,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9200,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 43,
+   "time_s": 4.2,
+   "byteOffset": 9920,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 983456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5716161727905273,
+     "y": 5.998752593994141,
+     "z": 0.06609569489955902,
+     "doppler": 0.0,
+     "snr_dB": 20.9,
+     "noise_dB": 50.4,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.538939118385315,
+     "y": 1.736524224281311,
+     "z": 0.0,
+     "doppler": -3.087944746017456,
+     "snr_dB": 10.8,
+     "noise_dB": 48.7,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1453,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80937,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9300,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 44,
+   "time_s": 4.3,
+   "byteOffset": 10112,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1003456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5871933698654175,
+     "y": 6.125160217285156,
+     "z": -0.09163476526737213,
+     "doppler": 0.0,
+     "snr_dB": 27.6,
+     "noise_dB": 48.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1378,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81359,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9400,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 45,
+   "time_s": 4.4,
+   "byteOffset": 10272,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1023456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.681473970413208,
+     "y": 6.056859016418457,
+     "z": 0.010709794238209724,
+     "doppler": 0.0,
+     "snr_dB": 26.9,
+     "noise_dB": 50.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1422,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81315,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9500,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 46,
+   "time_s": 4.5,
+   "byteOffset": 10432,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1043456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5852243900299072,
+     "y": 6.082735538482666,
+     "z": 0.020101197063922882,
+     "doppler": 0.0,
+     "snr_dB": 24.8,
+     "noise_dB": 48.3,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1448,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81289,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9600,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 47,
+   "time_s": 4.6,
+   "byteOffset": 10592,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1063456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6357614994049072,
+     "y": 5.9377851486206055,
+     "z": -0.06993774324655533,
+     "doppler": 0.0,
+     "snr_dB": 30.2,
+     "noise_dB": 48.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1391,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81346,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9700,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 48,
+   "time_s": 4.7,
+   "byteOffset": 10752,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1083456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5819200277328491,
+     "y": 6.1269755363464355,
+     "z": -0.0535271018743515,
+     "doppler": 0.0,
+     "snr_dB": 29.0,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.9857234358787537,
+     "y": 3.7539913654327393,
+     "z": 0.0,
+     "doppler": 6.6170244216918945,
+     "snr_dB": 12.7,
+     "noise_dB": 48.6,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1406,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80984,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9800,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 49,
+   "time_s": 4.8,
+   "byteOffset": 10944,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1103456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.59443199634552,
+     "y": 5.905547142028809,
+     "z": 0.04774624481797218,
+     "doppler": 0.0,
+     "snr_dB": 22.7,
+     "noise_dB": 49.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1461,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81276,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 9900,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 50,
+   "time_s": 4.9,
+   "byteOffset": 11104,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1123456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6537129878997803,
+     "y": 5.975604057312012,
+     "z": -0.1294783651828766,
+     "doppler": 0.0,
+     "snr_dB": 26.1,
+     "noise_dB": 47.7,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1396,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81341,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10000,
+    "tmpRx0Sens": 45,
+    "tmpRx1Sens": 45,
+    "tmpRx2Sens": 46,
+    "tmpRx3Sens": 46,
+    "tmpTx0Sens": 48,
+    "tmpTx1Sens": 48,
+    "tmpTx2Sens": 49,
+    "tmpPmSens": 47,
+    "tmpDig0Sens": 44,
+    "tmpDig1Sens": 44
+   }
+  },
+  {
+   "frameNumber": 51,
+   "time_s": 5.0,
+   "byteOffset": 11264,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1143456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5920093059539795,
+     "y": 5.990102291107178,
+     "z": 0.20871050655841827,
+     "doppler": 0.0,
+     "snr_dB": 25.5,
+     "noise_dB": 49.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1403,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81334,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10100,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 52,
+   "time_s": 5.1,
+   "byteOffset": 11424,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1163456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5228573083877563,
+     "y": 5.967996120452881,
+     "z": -0.04275602102279663,
+     "doppler": 0.0,
+     "snr_dB": 28.0,
+     "noise_dB": 47.4,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1440,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81297,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10200,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 53,
+   "time_s": 5.2,
+   "byteOffset": 11584,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1183456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6559032201766968,
+     "y": 6.020115375518799,
+     "z": -0.024671683087944984,
+     "doppler": 0.0,
+     "snr_dB": 22.7,
+     "noise_dB": 44.6,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1413,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81324,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10300,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 54,
+   "time_s": 5.3,
+   "byteOffset": 11744,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1203456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.69805908203125,
+     "y": 6.0514140129089355,
+     "z": 0.09996017068624496,
+     "doppler": 0.0,
+     "snr_dB": 25.3,
+     "noise_dB": 47.1,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1436,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81301,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10400,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 55,
+   "time_s": 5.4,
+   "byteOffset": 11904,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1223456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.7477537393569946,
+     "y": 5.905206680297852,
+     "z": 0.10859064012765884,
+     "doppler": 0.0,
+     "snr_dB": 26.0,
+     "noise_dB": 46.3,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1421,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81316,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10500,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 56,
+   "time_s": 5.5,
+   "byteOffset": 12064,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1243456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.7020577192306519,
+     "y": 5.961794853210449,
+     "z": -0.13920743763446808,
+     "doppler": 0.0,
+     "snr_dB": 24.8,
+     "noise_dB": 47.4,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1432,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81305,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10600,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 57,
+   "time_s": 5.6,
+   "byteOffset": 12224,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1263456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6262078285217285,
+     "y": 6.071938991546631,
+     "z": -0.004015469923615456,
+     "doppler": 0.0,
+     "snr_dB": 25.6,
+     "noise_dB": 47.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1382,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81355,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10700,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 58,
+   "time_s": 5.7,
+   "byteOffset": 12384,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1283456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.364012360572815,
+     "y": 5.96291446685791,
+     "z": 0.05572587996721268,
+     "doppler": 0.0,
+     "snr_dB": 26.9,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.09113039076328278,
+     "y": 1.6427868604660034,
+     "z": 0.0,
+     "doppler": 2.6468098163604736,
+     "snr_dB": 10.1,
+     "noise_dB": 47.7,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1421,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80969,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10800,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 59,
+   "time_s": 5.8,
+   "byteOffset": 12576,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1303456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.4897446632385254,
+     "y": 6.063172340393066,
+     "z": 0.05491292104125023,
+     "doppler": 0.0,
+     "snr_dB": 27.6,
+     "noise_dB": 49.0,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1471,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81266,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 10900,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 60,
+   "time_s": 5.9,
+   "byteOffset": 12736,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1323456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.4337010383605957,
+     "y": 6.0752973556518555,
+     "z": -0.1402859091758728,
+     "doppler": 0.0,
+     "snr_dB": 27.9,
+     "noise_dB": 49.0,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1473,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81264,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11000,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 61,
+   "time_s": 6.0,
+   "byteOffset": 12896,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1343456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.490724802017212,
+     "y": 5.888538360595703,
+     "z": -0.09209246933460236,
+     "doppler": 0.0,
+     "snr_dB": 28.9,
+     "noise_dB": 47.4,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1451,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81286,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11100,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 62,
+   "time_s": 6.1,
+   "byteOffset": 13056,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1363456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6056228876113892,
+     "y": 6.077414512634277,
+     "z": -0.004062653053551912,
+     "doppler": 0.0,
+     "snr_dB": 28.0,
+     "noise_dB": 49.5,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1402,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81335,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11200,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 63,
+   "time_s": 6.2,
+   "byteOffset": 13216,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1383456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.490195870399475,
+     "y": 5.932094097137451,
+     "z": -0.09777599573135376,
+     "doppler": 0.0,
+     "snr_dB": 22.8,
+     "noise_dB": 49.0,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1421,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81316,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11300,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 64,
+   "time_s": 6.3,
+   "byteOffset": 13376,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1403456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6072601079940796,
+     "y": 5.989664554595947,
+     "z": -0.003676614724099636,
+     "doppler": 0.0,
+     "snr_dB": 28.9,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1400,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81337,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11400,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 65,
+   "time_s": 6.4,
+   "byteOffset": 13536,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1423456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.7164350748062134,
+     "y": 6.133994102478027,
+     "z": 0.09406647086143494,
+     "doppler": 0.0,
+     "snr_dB": 27.9,
+     "noise_dB": 46.5,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1392,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81345,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11500,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 66,
+   "time_s": 6.5,
+   "byteOffset": 13696,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1443456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6080561876296997,
+     "y": 6.033116817474365,
+     "z": 0.008301607333123684,
+     "doppler": 0.0,
+     "snr_dB": 24.5,
+     "noise_dB": 44.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1473,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81264,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11600,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 67,
+   "time_s": 6.6,
+   "byteOffset": 13856,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1463456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6684188842773438,
+     "y": 5.972628593444824,
+     "z": 0.05886363238096237,
+     "doppler": 0.0,
+     "snr_dB": 25.4,
+     "noise_dB": 47.1,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1384,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81353,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11700,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 68,
+   "time_s": 6.7,
+   "byteOffset": 14016,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1483456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6705684661865234,
+     "y": 5.970198631286621,
+     "z": 0.1590825319290161,
+     "doppler": 0.0,
+     "snr_dB": 29.3,
+     "noise_dB": 50.1,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1397,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81340,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11800,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 69,
+   "time_s": 6.8,
+   "byteOffset": 14176,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1503456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5483064651489258,
+     "y": 5.873795509338379,
+     "z": -0.08304650336503983,
+     "doppler": 0.0,
+     "snr_dB": 27.9,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1469,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81268,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 11900,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 70,
+   "time_s": 6.9,
+   "byteOffset": 14336,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1523456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6129921674728394,
+     "y": 6.030979156494141,
+     "z": -0.09981226921081543,
+     "doppler": 0.0,
+     "snr_dB": 27.9,
+     "noise_dB": 48.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1453,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81284,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12000,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 71,
+   "time_s": 7.0,
+   "byteOffset": 14496,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1543456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.4985020160675049,
+     "y": 6.103817939758301,
+     "z": -0.10445020347833633,
+     "doppler": 0.0,
+     "snr_dB": 27.8,
+     "noise_dB": 47.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1442,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81295,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12100,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 72,
+   "time_s": 7.1,
+   "byteOffset": 14656,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1563456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6843552589416504,
+     "y": 6.010615348815918,
+     "z": 0.14093896746635437,
+     "doppler": 0.0,
+     "snr_dB": 26.3,
+     "noise_dB": 51.5,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1446,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81291,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12200,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 73,
+   "time_s": 7.2,
+   "byteOffset": 14816,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1583456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.563600778579712,
+     "y": 5.9575605392456055,
+     "z": -0.022968005388975143,
+     "doppler": 0.0,
+     "snr_dB": 27.1,
+     "noise_dB": 46.4,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 2.0909652709960938,
+     "y": 3.2196686267852783,
+     "z": 0.0,
+     "doppler": 0.0,
+     "snr_dB": 12.0,
+     "noise_dB": 48.6,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1461,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80929,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12300,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 74,
+   "time_s": 7.3,
+   "byteOffset": 15008,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1603456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6511214971542358,
+     "y": 5.933943748474121,
+     "z": 0.003147776471450925,
+     "doppler": 0.0,
+     "snr_dB": 26.5,
+     "noise_dB": 46.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1436,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81301,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12400,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 75,
+   "time_s": 7.4,
+   "byteOffset": 15168,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1623456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5952733755111694,
+     "y": 5.948637962341309,
+     "z": 0.08190741389989853,
+     "doppler": 0.0,
+     "snr_dB": 29.9,
+     "noise_dB": 46.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -4.53278112411499,
+     "y": 6.092531204223633,
+     "z": 0.0,
+     "doppler": 3.087944746017456,
+     "snr_dB": 11.5,
+     "noise_dB": 48.8,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1414,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80976,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12500,
+    "tmpRx0Sens": 46,
+    "tmpRx1Sens": 46,
+    "tmpRx2Sens": 47,
+    "tmpRx3Sens": 47,
+    "tmpTx0Sens": 49,
+    "tmpTx1Sens": 49,
+    "tmpTx2Sens": 50,
+    "tmpPmSens": 48,
+    "tmpDig0Sens": 45,
+    "tmpDig1Sens": 45
+   }
+  },
+  {
+   "frameNumber": 76,
+   "time_s": 7.5,
+   "byteOffset": 15360,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1643456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.565137267112732,
+     "y": 6.129232883453369,
+     "z": -0.16737240552902222,
+     "doppler": 0.0,
+     "snr_dB": 26.6,
+     "noise_dB": 49.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -3.2065513134002686,
+     "y": 3.2368876934051514,
+     "z": 0.0,
+     "doppler": -2.6468098163604736,
+     "snr_dB": 11.1,
+     "noise_dB": 48.1,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1437,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80953,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12600,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 77,
+   "time_s": 7.6,
+   "byteOffset": 15552,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1663456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6072877645492554,
+     "y": 5.945808410644531,
+     "z": 0.04344778507947922,
+     "doppler": 0.0,
+     "snr_dB": 28.8,
+     "noise_dB": 47.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1480,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81257,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12700,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 78,
+   "time_s": 7.7,
+   "byteOffset": 15712,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1683456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.547329306602478,
+     "y": 6.004350185394287,
+     "z": -0.11370308697223663,
+     "doppler": 0.0,
+     "snr_dB": 29.4,
+     "noise_dB": 47.5,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1459,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81278,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12800,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 79,
+   "time_s": 7.8,
+   "byteOffset": 15872,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1703456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5391368865966797,
+     "y": 6.094449043273926,
+     "z": 0.041941966861486435,
+     "doppler": 0.0,
+     "snr_dB": 27.3,
+     "noise_dB": 49.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1420,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81317,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 12900,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 80,
+   "time_s": 7.9,
+   "byteOffset": 16032,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1723456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6131877899169922,
+     "y": 6.0753889083862305,
+     "z": 0.016895223408937454,
+     "doppler": 0.0,
+     "snr_dB": 27.4,
+     "noise_dB": 48.0,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1440,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81297,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13000,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 81,
+   "time_s": 8.0,
+   "byteOffset": 16192,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1743456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5940486192703247,
+     "y": 5.993126392364502,
+     "z": 0.02867809310555458,
+     "doppler": 0.0,
+     "snr_dB": 27.5,
+     "noise_dB": 48.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1435,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81302,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13100,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 82,
+   "time_s": 8.1,
+   "byteOffset": 16352,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1763456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5676031112670898,
+     "y": 6.043754577636719,
+     "z": -0.008085629902780056,
+     "doppler": 0.0,
+     "snr_dB": 25.1,
+     "noise_dB": 48.3,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1470,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81267,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13200,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 83,
+   "time_s": 8.2,
+   "byteOffset": 16512,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1783456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5051493644714355,
+     "y": 5.927642822265625,
+     "z": 0.1325073540210724,
+     "doppler": 0.0,
+     "snr_dB": 27.8,
+     "noise_dB": 48.4,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1472,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81265,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13300,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 84,
+   "time_s": 8.3,
+   "byteOffset": 16672,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1803456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.645222544670105,
+     "y": 6.022967338562012,
+     "z": 0.039027247577905655,
+     "doppler": 0.0,
+     "snr_dB": 25.3,
+     "noise_dB": 46.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1433,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81304,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13400,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 85,
+   "time_s": 8.4,
+   "byteOffset": 16832,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1823456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6136432886123657,
+     "y": 5.9441704750061035,
+     "z": 0.02991955727338791,
+     "doppler": 0.0,
+     "snr_dB": 27.5,
+     "noise_dB": 46.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1474,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81263,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 19
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13500,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 86,
+   "time_s": 8.5,
+   "byteOffset": 16992,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1843456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5559406280517578,
+     "y": 6.088431358337402,
+     "z": 0.15186864137649536,
+     "doppler": 0.0,
+     "snr_dB": 28.1,
+     "noise_dB": 47.8,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -1.0743131637573242,
+     "y": 6.236266136169434,
+     "z": 0.0,
+     "doppler": -2.6468098163604736,
+     "snr_dB": 12.7,
+     "noise_dB": 49.5,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1461,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80929,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13600,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 87,
+   "time_s": 8.6,
+   "byteOffset": 17184,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1863456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5603142976760864,
+     "y": 5.958466053009033,
+     "z": 0.0012477588606998324,
+     "doppler": 0.0,
+     "snr_dB": 30.1,
+     "noise_dB": 49.3,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 2.6961405277252197,
+     "y": 2.613140821456909,
+     "z": 0.0,
+     "doppler": -5.293619632720947,
+     "snr_dB": 11.1,
+     "noise_dB": 47.6,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1405,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80985,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13700,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 88,
+   "time_s": 8.7,
+   "byteOffset": 17376,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1883456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.7002207040786743,
+     "y": 5.9195685386657715,
+     "z": 0.07653992623090744,
+     "doppler": 0.0,
+     "snr_dB": 26.4,
+     "noise_dB": 48.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.5240235328674316,
+     "y": 4.398582935333252,
+     "z": 0.0,
+     "doppler": -0.8822699189186096,
+     "snr_dB": 11.2,
+     "noise_dB": 49.0,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1426,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80964,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 17
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13800,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 89,
+   "time_s": 8.8,
+   "byteOffset": 17568,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1903456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6513493061065674,
+     "y": 6.152477741241455,
+     "z": -0.030770083889365196,
+     "doppler": 0.0,
+     "snr_dB": 28.2,
+     "noise_dB": 47.6,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -2.7513880729675293,
+     "y": 2.9719293117523193,
+     "z": 0.0,
+     "doppler": 3.087944746017456,
+     "snr_dB": 11.5,
+     "noise_dB": 48.5,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1500,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80890,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 16
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 13900,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 90,
+   "time_s": 8.9,
+   "byteOffset": 17760,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 1923456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5527137517929077,
+     "y": 5.916223049163818,
+     "z": 0.08582435548305511,
+     "doppler": 0.0,
+     "snr_dB": 26.5,
+     "noise_dB": 48.9,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 0.8276984095573425,
+     "y": 0.9009520411491394,
+     "z": 0.0,
+     "doppler": 3.970214605331421,
+     "snr_dB": 12.4,
+     "noise_dB": 48.6,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1505,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80885,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14000,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 91,
+   "time_s": 9.0,
+   "byteOffset": 17952,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1943456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5281896591186523,
+     "y": 6.053221225738525,
+     "z": 0.08695166558027267,
+     "doppler": 0.0,
+     "snr_dB": 27.9,
+     "noise_dB": 47.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1433,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81304,
+    "interChirpProcessingMargin": 9,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14100,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 92,
+   "time_s": 9.1,
+   "byteOffset": 18112,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1963456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.605180025100708,
+     "y": 5.901583194732666,
+     "z": 0.1212226003408432,
+     "doppler": 0.0,
+     "snr_dB": 26.6,
+     "noise_dB": 49.9,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1460,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81277,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14200,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 93,
+   "time_s": 9.2,
+   "byteOffset": 18272,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 1983456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.659825086593628,
+     "y": 6.061900615692139,
+     "z": -0.10653160512447357,
+     "doppler": 0.0,
+     "snr_dB": 28.2,
+     "noise_dB": 47.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1433,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81304,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 7,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14300,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 94,
+   "time_s": 9.3,
+   "byteOffset": 18432,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 2003456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.7199796438217163,
+     "y": 5.913984298706055,
+     "z": 0.06601007282733917,
+     "doppler": 0.0,
+     "snr_dB": 27.6,
+     "noise_dB": 50.1,
+     "truthLabel": "pole"
+    },
+    {
+     "x": 1.7627967596054077,
+     "y": 4.247137069702148,
+     "z": 0.0,
+     "doppler": 0.8822699189186096,
+     "snr_dB": 12.3,
+     "noise_dB": 46.9,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1462,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80928,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14400,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 95,
+   "time_s": 9.4,
+   "byteOffset": 18624,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 2023456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6962354183197021,
+     "y": 5.877274513244629,
+     "z": 0.02036711573600769,
+     "doppler": 0.0,
+     "snr_dB": 32.3,
+     "noise_dB": 49.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1406,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81331,
+    "interChirpProcessingMargin": 10,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 15
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14500,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 96,
+   "time_s": 9.5,
+   "byteOffset": 18784,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 2043456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.588976263999939,
+     "y": 5.949165344238281,
+     "z": -0.14312298595905304,
+     "doppler": 0.0,
+     "snr_dB": 27.1,
+     "noise_dB": 46.5,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1399,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81338,
+    "interChirpProcessingMargin": 12,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14600,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 97,
+   "time_s": 9.6,
+   "byteOffset": 18944,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 2063456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6857188940048218,
+     "y": 6.011828899383545,
+     "z": -0.026027340441942215,
+     "doppler": 0.0,
+     "snr_dB": 29.4,
+     "noise_dB": 49.0,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1451,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81286,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 5,
+    "interFrameCPULoad": 14
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14700,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 98,
+   "time_s": 9.7,
+   "byteOffset": 19104,
+   "totalPacketLen": 192,
+   "timeCpuCycles": 2083456789,
+   "numDetectedObj": 2,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5787636041641235,
+     "y": 6.084418773651123,
+     "z": 0.019076986238360405,
+     "doppler": 0.0,
+     "snr_dB": 26.1,
+     "noise_dB": 47.5,
+     "truthLabel": "pole"
+    },
+    {
+     "x": -0.5516815185546875,
+     "y": 5.922799587249756,
+     "z": 0.0,
+     "doppler": 2.6468098163604736,
+     "snr_dB": 12.1,
+     "noise_dB": 48.9,
+     "truthLabel": "clutter"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1393,
+    "transmitOutputTime": 13194,
+    "interFrameProcessingMargin": 80997,
+    "interChirpProcessingMargin": 11,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14800,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 99,
+   "time_s": 9.8,
+   "byteOffset": 19296,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 2103456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.6570669412612915,
+     "y": 5.887301445007324,
+     "z": 0.1174512505531311,
+     "doppler": 0.0,
+     "snr_dB": 24.3,
+     "noise_dB": 47.8,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1447,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81290,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 8,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 14900,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  },
+  {
+   "frameNumber": 100,
+   "time_s": 9.9,
+   "byteOffset": 19456,
+   "totalPacketLen": 160,
+   "timeCpuCycles": 2123456789,
+   "numDetectedObj": 1,
+   "numTLVs": 4,
+   "tlvTypesInOrder": [
+    1,
+    7,
+    6,
+    9
+   ],
+   "points": [
+    {
+     "x": -1.5504976511001587,
+     "y": 6.047539710998535,
+     "z": 0.0873638391494751,
+     "doppler": -0.4411349594593048,
+     "snr_dB": 24.7,
+     "noise_dB": 49.2,
+     "truthLabel": "pole"
+    }
+   ],
+   "stats": {
+    "interFrameProcessingTime": 1373,
+    "transmitOutputTime": 12847,
+    "interFrameProcessingMargin": 81364,
+    "interChirpProcessingMargin": 8,
+    "activeFrameCPULoad": 6,
+    "interFrameCPULoad": 18
+   },
+   "temperature": {
+    "tempReportValid": 0,
+    "time": 15000,
+    "tmpRx0Sens": 47,
+    "tmpRx1Sens": 47,
+    "tmpRx2Sens": 48,
+    "tmpRx3Sens": 48,
+    "tmpTx0Sens": 50,
+    "tmpTx1Sens": 50,
+    "tmpTx2Sens": 51,
+    "tmpPmSens": 49,
+    "tmpDig0Sens": 46,
+    "tmpDig1Sens": 46
+   }
+  }
+ ]
+}

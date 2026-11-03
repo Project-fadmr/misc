@@ -1,0 +1,11 @@
+Item,Value
+Radar,"AWR1843AOP, 3 TX / 4 RX antennas on package (12 virtual antennas in TDM-MIMO)"
+Band,77–81 GHz (4 GHz sweep bandwidth)
+Antenna gain,~5 dBi
+USB-to-UART bridge,"Silicon Labs **CP2105** (dual UART). The schematic labels it ""SICP2105""."
+USB connector,"J1, micro-USB. It carries both UARTs and can power the board once the breakaway section is removed."
+Barrel power,"J5, 5 V, center positive, 2.1 mm, > 2.5 A supply (not in the kit). Use it in modular mode with the breakaway section still attached."
+Max duty cycle,"**50 %** (active chirp time ≤ 50 % of the frame period), or the junction can exceed 125 °C"
+Thermal,The surface gets hot. Use the supplied heat sink. Keep at least 5 cm from people during operation.
+Reset,SW2 (NRST). TI recommends pressing it once after applying 5 V.
+LEDs,"LD1 = 5 V present, LD4 = USB-UART enumerated, LD5 = NRST held low"

@@ -1,0 +1,3 @@
+CP2105 port,Role,Baud,Direction,Content
+**Enhanced** (ECI),"**CLI / ""Application/User UART""**",**115200**,bidirectional,ASCII text commands and replies
+**Standard** (SCI),**Data port**,**921600**,device → host,Binary TLV frames (section 6)

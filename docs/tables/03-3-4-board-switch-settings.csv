@@ -1,0 +1,3 @@
+Mode,S1.1,S1.3 (SOP0),S1.4 (SOP1),S2.1,S3 (SOP2)
+**Functional**: run the demo over USB,OFF,OFF,OFF,OFF,**OFF**
+**Flashing**: program the QSPI flash over USB,OFF,OFF,OFF,OFF,**ON**

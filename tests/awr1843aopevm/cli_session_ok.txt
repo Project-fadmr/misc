@@ -1,0 +1,75 @@
+# Expected CLI port (Enhanced COM / user UART, 115200 baud) transcript for profile_test.cfg.
+# Format based on a real mmW-demo session posted on TI E2E (see docs, Sources).
+# Each host line is sent terminated with "\n". The device echoes the command, replies "Done"
+# on success, then prints the prompt "mmwDemo:/>" with no newline after it.
+# The first sensorStop on a freshly booted board is answered with "Ignored: Sensor is already stopped".
+# Exact whitespace/line endings (CR vs CRLF) are NOT verified; parse tolerantly.
+# Lines starting with '#' are annotations, not part of the stream.
+sensorStop
+Ignored: Sensor is already stopped
+Done
+mmwDemo:/>flushCfg
+Done
+mmwDemo:/>dfeDataOutputMode 1
+Done
+mmwDemo:/>channelCfg 15 7 0
+Done
+mmwDemo:/>adcCfg 2 1
+Done
+mmwDemo:/>adcbufCfg -1 0 1 1 1
+Done
+mmwDemo:/>profileCfg 0 77 7 3 39 0 0 100 1 256 7200 0 0 30
+Done
+mmwDemo:/>chirpCfg 0 0 0 0 0 0 0 1
+Done
+mmwDemo:/>chirpCfg 1 1 0 0 0 0 0 4
+Done
+mmwDemo:/>chirpCfg 2 2 0 0 0 0 0 2
+Done
+mmwDemo:/>frameCfg 0 2 32 0 100 1 0
+Done
+mmwDemo:/>lowPower 0 0
+Done
+mmwDemo:/>guiMonitor -1 1 0 0 0 0 1
+Done
+mmwDemo:/>cfarCfg -1 0 2 8 4 3 0 15 1
+Done
+mmwDemo:/>cfarCfg -1 1 0 4 2 3 1 15 1
+Done
+mmwDemo:/>multiObjBeamForming -1 1 0.5
+Done
+mmwDemo:/>clutterRemoval -1 0
+Done
+mmwDemo:/>calibDcRangeSig -1 0 -5 8 256
+Done
+mmwDemo:/>extendedMaxVelocity -1 0
+Done
+mmwDemo:/>lvdsStreamCfg -1 0 0 0
+Done
+mmwDemo:/>compRangeBiasAndRxChanPhase 0.0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+Done
+mmwDemo:/>measureRangeBiasAndRxChanPhase 0 1.5 0.2
+Done
+mmwDemo:/>CQRxSatMonitor 0 3 5 121 0
+Done
+mmwDemo:/>CQSigImgMonitor 0 127 4
+Done
+mmwDemo:/>analogMonitor 0 0
+Done
+mmwDemo:/>aoaFovCfg -1 -90 90 -90 90
+Done
+mmwDemo:/>cfarFovCfg -1 0 0.25 10.5
+Done
+mmwDemo:/>cfarFovCfg -1 1 -7.05 6.6
+Done
+mmwDemo:/>calibData 0 0 0
+Done
+mmwDemo:/>sensorStart
+Done
+mmwDemo:/>
+# From here the data port (Standard COM, 921600 baud) streams frames like data_clean.bin.
+#
+# Failure shapes seen in TI E2E reports (handle all of them):
+#  - "Error <negative number>" instead of "Done" (e.g. "Error -1" after sensorStart = bad/incomplete config)
+#  - no reply at all after sensorStart (firmware assert / hang): time out, then reset the board
+#  - "Ignored: Sensor is already started" if sensorStart is sent while running

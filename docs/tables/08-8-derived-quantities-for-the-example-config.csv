@@ -1,0 +1,7 @@
+Quantity,Formula,Value
+Range bin step,"c · fs / (2 · S · Nrange), where fs = ADC rate, S = slope, Nrange = FFT size",0.0422 m
+Max range (IF limit),Nrange · step,10.8 m
+Chirp time Tc (per TX),idleTime + rampEndTime,46 µs
+Max unambiguous velocity,λ / (4 · Tc · numTX),±7.06 m/s
+Velocity step,2 · vmax / numLoops,0.441 m/s
+Active chirp time / frame,numLoops · numTX · Tc,"4.4 ms (4.4 % of 100 ms, well under the 50 % limit)"

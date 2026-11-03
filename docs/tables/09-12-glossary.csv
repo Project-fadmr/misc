@@ -1,0 +1,8 @@
+Term,Meaning
+AOP,Antenna-on-package
+CLI,Command-line interface (text config port)
+ECI / SCI,CP2105 Enhanced / Standard Communication Interface
+SOP,Sense-on-power pins that select the boot mode
+TDM-MIMO,"TX antennas take turns per chirp, which gives TX × RX virtual antennas"
+TLV,Type-Length-Value block
+Q9,Fixed point with 9 fractional bits (value / 512)

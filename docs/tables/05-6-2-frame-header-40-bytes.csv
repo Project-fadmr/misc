@@ -1,0 +1,10 @@
+Offset,Size,Type,Field,Notes
+0,8,uint16[4],magicWord,`0x0102 0x0304 0x0506 0x0708`. On the wire: `02 01 04 03 06 05 08 07`.
+8,4,uint32,version,"SDK version: major<<24 | minor<<16 | bugfix<<8 | build. For example, SDK 3.5.0.4 = `0x03050004`."
+12,4,uint32,totalPacketLen,"Bytes, including the header and padding"
+16,4,uint32,platform,"Device ID. TI documents `0xA6843` for IWR6843. ⚠️ For AWR1843 it is *presumably* `0xA1843`, unconfirmed. Log it rather than rejecting on it."
+20,4,uint32,frameNumber,Resets only on reset or power-cycle
+24,4,uint32,timeCpuCycles,Free-running CPU cycle counter. Wraps.
+28,4,uint32,numDetectedObj,Number of points in TLV 1
+32,4,uint32,numTLVs,
+36,4,uint32,subFrameNumber,0 in legacy frame mode

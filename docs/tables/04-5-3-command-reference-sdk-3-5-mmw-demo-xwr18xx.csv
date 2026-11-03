@@ -1,0 +1,29 @@
+Command,M,Parameters,Notes
+`sensorStop`,,none,Required before reconfiguring
+`flushCfg`,,none,Clears the old config
+`dfeDataOutputMode`,M,modeType,"`1` = frame-based chirps (use this), `3` = advanced frame"
+`channelCfg`,M,rxMask txMask cascading,"4 RX = `15`, 3 TX = `7`, cascading = `0`"
+`adcCfg`,M,numADCBits adcOutputFmt,"Only `2 1` (16-bit, complex 1x) is supported"
+`adcbufCfg`,M,subFrameIdx outFmt iqSwap chanInterleave chirpThreshold,18xx demo: `-1 0 1 1 1` (chirpThreshold must be 1 because the HWA does the 1D FFT)
+`profileCfg`,M,id startFreqGHz idleUs adcStartUs rampEndUs txOutPower txPhaseShifter slopeMHzPerUs txStartUs numAdcSamples sampleRateKsps hpf1 hpf2 rxGain,"One profile only. Buffer sizes depend on samples × loops × antennas, and an oversized config is rejected."
+`chirpCfg`,M,startIdx endIdx profileId startFreqVar slopeVar idleVar adcStartVar txMask,"One chirp per TX for TDM-MIMO (txMask 1, 2 or 4)"
+`frameCfg`,M,chirpStart chirpEnd numLoops numFrames periodMs triggerSel triggerDelayMs,numLoops ≥ 4. numFrames `0` = infinite. triggerSel `1` = software. The period must allow ≤ 50 % duty **and** enough time to send the UART output.
+`lowPower`,M,0 adcMode,`0 0`
+`guiMonitor`,M,subFrameIdx detectedObjects logMagRange noiseProfile rangeAzimuth(Elev)HeatMap rangeDopplerHeatMap statsInfo,"Selects which TLVs are sent (section 6.4). detectedObjects: `1` = points + side info, `2` = points only."
+`cfarCfg`,M,subFrameIdx procDirection mode noiseWin guardLen divShift cyclicMode thresholdDb peakGrouping,"Send twice: once for range (0), once for Doppler (1)"
+`multiObjBeamForming`,M,subFrameIdx enabled threshold,
+`calibDcRangeSig`,M,subFrameIdx enabled negBinIdx posBinIdx numAvg,
+`clutterRemoval`,M,subFrameIdx enabled,"Static clutter removal. When enabled, static objects disappear."
+`aoaFovCfg`,M,subFrameIdx minAz maxAz minElev maxElev,Degrees
+`cfarFovCfg`,M,subFrameIdx procDirection min max,"Send twice: range (m), Doppler (m/s)"
+`compRangeBiasAndRxChanPhase`,M,"rangeBias then 12 (Re, Im) pairs",Q15. Use identity (`1 0` × 12) until calibrated.
+`measureRangeBiasAndRxChanPhase`,M,enabled targetDistM searchWinM,`0 …` except during calibration
+`extendedMaxVelocity`,M,subFrameIdx enabled,Velocity disambiguation up to 2 × vmax
+`CQRxSatMonitor`,M,profile satMonSel priSliceDuration numSlices rxChanMask,
+`CQSigImgMonitor`,M,profile numSlices numSamplePerSlice,
+`analogMonitor`,M,rxSaturation sigImgBand,`0 0` disables both monitors
+`lvdsStreamCfg`,M,subFrameIdx enableHeader dataFmt enableSW,`-1 0 0 0` (no LVDS)
+`calibData`,M,saveEnable restoreEnable flashOffset,"TI profiles use `0 0 0`. **Required since SDK 3.4**: it is missing from older profiles, and without it `sensorStart` fails."
+`sensorStart`,M,[doReconfig],Starts streaming
+`configDataPort`,,baudrate ackPing,Optional. **Keep 921600 on this EVM** (section 3.3). With ackPing = 1 the device sends 16 × `0xFF` on the data port after the change.
+`queryDemoStatus`,,none,"Optional. Returns the sensor state (0 init, 1 opened, 2 started, 3 stopped) and the data-port baud rate."

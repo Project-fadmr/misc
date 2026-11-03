@@ -1,0 +1,10 @@
+Type,Name,Enabled by `guiMonitor`,Payload
+1,Detected points,detectedObjects = 1 or 2,"numDetectedObj × 16 B: `x, y, z` (m), `doppler` (m/s), each float32"
+2,Range profile,logMagRange = 1,"rangeFFTSize × uint16. Sum of log2 magnitudes over the receive antennas at zero Doppler, **Q9** (divide by 512 to get log2 units; multiply log2 units by 6.02 to get dB)."
+3,Noise profile,noiseProfile = 1,"Same format as type 2, taken at the max Doppler bin (the noise floor)"
+4,Azimuth static heatmap,rangeAzimuthHeatMap = 1 (legacy AoA DPU only),"rangeFFTSize × numAzimuthVirtAnt × 4 B. Complex int16 pairs **imaginary first, then real**. Ordered by range bin, then antenna."
+5,Range-Doppler heatmap,rangeDopplerHeatMap = 1,"rangeFFTSize × dopplerFFTSize × uint16, row-major by range bin"
+6,Stats,statsInfo = 1,"24 B: interFrameProcessingTime (µs), transmitOutputTime (µs), interFrameProcessingMargin (µs), interChirpProcessingMargin (µs), activeFrameCPULoad (%), interFrameCPULoad (%), each uint32"
+7,Detected points side info,detectedObjects = 1,"numDetectedObj × 4 B: `snr`, `noise`, each uint16 in **0.1 dB** units, in the same order as TLV 1"
+8,Azimuth/elevation static heatmap,"heatmap flag = 1 (AoA2D DPU, which the AOP builds use)",rangeFFTSize × **all** virtual antennas × 4 B. Same complex layout as type 4. Sent **instead of** type 4.
+9,Temperature stats,statsInfo = 1,"28 B: tempReportValid (int32, 0 = valid), time (uint32, ms), then uint16 °C readings for Rx0–3, Tx0–2, PM, Dig0, Dig1"

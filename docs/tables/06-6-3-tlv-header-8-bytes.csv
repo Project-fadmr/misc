@@ -1,0 +1,3 @@
+Offset,Type,Field
+0,uint32,type
+4,uint32,"length: payload bytes only, **excluding** this 8-byte header"
