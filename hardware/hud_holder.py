@@ -26,9 +26,23 @@ OVERSHOOT = 3  # cutters extend this far above the bed surface
 DATA_PIT_X = (-170, -109)  # runs under the panel into the GPIO channel
 DATA_PIT_S = (24.5, 64.5)
 DATA_PIT_D = 10
-# Electronics pockets (open at rear face)
-MKR_BOX = (-177, -149, 38, 101, 2, 24)
-BAT_BOX = (24, 108, 18, 101, 2, 24)
+# Electronics: part envelopes, pockets are 10% larger per axis, centred, open at rear face (y=101)
+MKR_FIT = (-175, -150, 39, 99, 3, 23)  # MKR 1010, 25 x 60 x 20
+BAT_FIT = (26, 106, 19, 99, 3, 23)  # battery, 80 x 80 x 20
+POCKET_TOL = 0.10
+
+
+def grow(fit, k=POCKET_TOL):
+    out = []
+    for a, b in zip(fit[::2], fit[1::2]):
+        m = (b - a) * k / 2
+        out += [a - m, b + m]
+    out[3] = 101  # open at the rear face
+    return tuple(out)
+
+
+MKR_BOX = grow(MKR_FIT)
+BAT_BOX = grow(BAT_FIT)
 CHANNEL_BOX = (-178, -162, 38, 101, 2, 300)  # open-top GPIO channel exposing the MKR header row
 POWER_SLOT_BOX = (-6, 6, 35, 101, 20, 300)  # display power wires out the rear, centred on the seam
 # Glass (45 deg, top edge toward viewer)
@@ -129,8 +143,8 @@ def main():
                            glass_pt(GLASS_T[1], GLASS_W[1]), glass_pt(GLASS_T[0], GLASS_W[1])],
                           -118.5, 118.5)
     slab = slope_prism(4.5, 84.5, 0, 2, -160, 160)
-    bat_fit = box(26, 106, 19, 99, 3, 23)
-    mkr_fit = box(-175, -150, 39, 99, 3, 23)
+    bat_fit = box(*BAT_FIT)
+    mkr_fit = box(*MKR_FIT)
     dupont = box(-176, -170, 40, 98, 23, 80)  # plug clearance from above
     power_wire = box(-5, 5, 36, 100, 22, 60)
     data_clear = slope_prism(25, 64, 2.5, 9, -165, -110)

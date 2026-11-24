@@ -11,11 +11,11 @@ import numpy as np
 import manifold3d as mf
 
 OUT_DIR = Path(__file__).resolve().parent
-PREVIEW = Path("/tmp/claude-1000/-home-voxy-Projects-fa-mr-misc-hardware/e0204a9f-038a-4c62-9e0d-c03bc913209f/scratchpad/enclosure_preview.png")
+PREVIEW = OUT_DIR / "radar_enclosure_preview.png"
 
 # Walls and floor
-WALL = 2
-FLOOR_T = 2
+WALL = 1.6
+FLOOR_T = 1.6
 OUT_R = 3
 PILOT_DEPTH = 8
 
@@ -29,32 +29,31 @@ INNER_TOP = BOARD_TOP + J5_H + 1  # 1 mm headroom above J5, rim height
 CLR = 1  # board to cavity wall clearance
 
 # Cavity (x0, x1, y0, y1)
-CAV_X0, CAV_X1 = -1, BOARD_X + CLR
+CAV_X0, CAV_X1 = -1, BOARD_X + CLR + 10  # +x extended 10 mm for connector J10
 CAV_Y0, CAV_Y1 = -1, 51.5  # +y extended so the 1.2 mm ESP frame wall fits
 OUT_X0, OUT_X1 = CAV_X0 - WALL, CAV_X1 + WALL
 OUT_Y0, OUT_Y1 = CAV_Y0 - WALL, CAV_Y1 + WALL
 
-# Standoffs (x, y, OD/2, pilot/2); M2 OD 5 pilot 1.6, M2.5 OD 6 pilot 2.0
-M2_R, M2_PILOT_R = 2.5, 0.8
-M25_R, M25_PILOT_R = 3.0, 1.0
+# Standoffs (x, y, OD/2, pilot/2); M3 self-tapping into plastic: OD 6.5, pilot 2.5
+M3_R, M3_PILOT_R = 3.25, 1.25
 STANDOFFS = [
-    (2.54, 3.51, M2_R, M2_PILOT_R),
-    (2.54, 23.43, M2_R, M2_PILOT_R),
-    (54.48, 3.43, M25_R, M25_PILOT_R),
-    (90.31, 3.43, M25_R, M25_PILOT_R),
+    (2.54, 3.51, M3_R, M3_PILOT_R),
+    (2.54, 23.43, M3_R, M3_PILOT_R),
+    (54.48, 3.43, M3_R, M3_PILOT_R),
+    (90.31, 3.43, M3_R, M3_PILOT_R),
 ]
 
-# ESP32-C3 SuperMini
-ESP_X, ESP_Y, ESP_T = 22.52, 18, 1
-ESP_X1 = BOARD_X
+# ESP32-C3 SuperMini (pin headers point down, 3 mm below PCB)
+ESP_X, ESP_Y, ESP_T = 23.9, 18, 1
+ESP_X1 = CAV_X1 - CLR
 ESP_X0 = ESP_X1 - ESP_X
 ESP_Y0 = 31
 ESP_CY = ESP_Y0 + ESP_Y / 2
-ESP_Z0 = FLOOR_T + 2  # bottom of board, on rails
+ESP_Z0 = FLOOR_T + 3.5  # PCB bottom on central rail; pins reach FLOOR_T + 0.5
 ESP_TOP = ESP_Z0 + ESP_T
-RAIL_W = 2
-FRAME_H = 3
-FRAME_CLR = 0.3
+RAIL_W = 6  # central support rail, centred on ESP_CY
+FRAME_H = ESP_Z0 + ESP_T + 1 - FLOOR_T  # frame wall 1 mm above PCB top
+FRAME_CLR = 0.5
 FRAME_T = 1.2
 FRAME_GAP_NX = 6  # -x side, for wires; the +x side is open-ended at the wall
 
@@ -81,9 +80,9 @@ GROOVE_Z = INNER_TOP - 2.0
 LID_CLR = 0.25
 SKIRT_H, SKIRT_T = 3.5, 1.6
 BUMP_H = 0.7  # outward protrusion of the ridge
-WIN = (1, 33, 1, 26)  # radar window at plate underside, chamfered 45 deg
+WIN = (11, 43, 1, 26)  # radar window at plate underside, chamfered 45 deg
 J7_HOLE, J7_R = (64.5, 91.5, 20, 27), 1  # lid opening over the J7 header (x0, x1, y0, y1)
-ESP_HOLE, ESP_R = (92.5, 112, 31.5, 48.5), 1.5  # lid opening over the ESP32 pin rows
+ESP_HOLE, ESP_R = (ESP_X0 + 0.5, ESP_X1 - 2.3, 31.5, 48.5), 1.5  # lid opening over the ESP32 pin rows
 
 BUMP_HALF = GROOVE_H / 2
 
@@ -154,9 +153,9 @@ def bbox(m):
 
 def main():
     # Opening cutters, each through one wall (x-range covers wall only)
-    j1_cut = box(-5, 0, J1_Y - J1_W / 2, J1_Y + J1_W / 2, J1_Z - J1_H / 2, J1_Z + J1_H / 2)
+    j1_cut = box(OUT_X0 - 1, CAV_X0 + 1, J1_Y - J1_W / 2, J1_Y + J1_W / 2, J1_Z - J1_H / 2, J1_Z + J1_H / 2)
     usbc_cut = prism_x(rrect_cs(USBC_Y - USBC_W / 2, USBC_Y + USBC_W / 2,
-                                USBC_Z - USBC_H / 2, USBC_Z + USBC_H / 2, OPEN_R), 112, 120)
+                                USBC_Z - USBC_H / 2, USBC_Z + USBC_H / 2, OPEN_R), CAV_X1 - 3, OUT_X1 + 1)
     openings = j1_cut + usbc_cut
 
     floor_vents = mf.Manifold()
@@ -187,8 +186,7 @@ def main():
         standoffs += s
         pilots += cyl(x, y, pr, BOARD_Z0 - PILOT_DEPTH, PILOT_DEPTH + 1)
 
-    rails = box(ESP_X0, ESP_X1, ESP_Y0, ESP_Y0 + RAIL_W, FLOOR_T - 0.5, ESP_Z0) \
-        + box(ESP_X0, ESP_X1, ESP_Y0 + ESP_Y - RAIL_W, ESP_Y0 + ESP_Y, FLOOR_T - 0.5, ESP_Z0)
+    rail = box(ESP_X0 + 2, ESP_X1 - 2, ESP_CY - RAIL_W / 2, ESP_CY + RAIL_W / 2, FLOOR_T - 0.5, ESP_Z0)
 
     # Frame: -x, -y and +y sides only; the +x side is absent (wall and USB-C opening hold that end)
     f_out = box(ESP_X0 - FRAME_CLR - FRAME_T, ESP_X1,
@@ -199,7 +197,7 @@ def main():
     gap_nx = box(ESP_X0 - 5, ESP_X0, ESP_CY - FRAME_GAP_NX / 2, ESP_CY + FRAME_GAP_NX / 2, 0, 10)
     frame = f_out - f_in - gap_nx
 
-    base = (base + standoffs + rails + frame) - pilots
+    base = (base + standoffs + rail + frame) - pilots
 
     # Lid: plate, skirt, bump, window, J5 notch
     plate = rrect_cs(OUT_X0, OUT_X1, OUT_Y0, OUT_Y1, OUT_R).extrude(WALL).translate((0, 0, INNER_TOP))
@@ -218,7 +216,7 @@ def main():
     skirt_in = box(*SK_IN, SK_Z0 - 1, INNER_TOP + 0.1)
     bump = frustum(SK, GROOVE_Z - BUMP_HALF, 0, GROOVE_Z, BUMP_H) \
         + frustum(SK, GROOVE_Z, BUMP_H, GROOVE_Z + BUMP_HALF, 0)
-    j5_notch = box(110, CAV_X1 + WALL, J5_Y[0], J5_Y[1], SK_Z0 - 1, INNER_TOP + 0.1)
+    j5_notch = box(CAV_X1 - 5, CAV_X1 + WALL, J5_Y[0], J5_Y[1], SK_Z0 - 1, INNER_TOP + 0.1)
     skirt = (skirt_outer + bump) - skirt_in - j5_notch
 
     lid_asm = plate + skirt
@@ -228,6 +226,7 @@ def main():
 
     # Checks
     assert CAV_X0 <= -CLR and CAV_X1 >= BOARD_X + CLR and CAV_Y0 <= -CLR and BOARD_Y + CLR <= CAV_Y1
+    assert WALL - GROOVE_DEPTH >= 0.8, "groove leaves too little wall"
     assert CAV_X0 <= ESP_X0 and ESP_X1 <= CAV_X1 and CAV_Y0 <= ESP_Y0 and ESP_Y0 + ESP_Y <= CAV_Y1
     assert ESP_Y0 > BOARD_Y + CLR, "ESP overlaps radar board in XY"
     assert CAV_Y0 <= ESP_Y0 - FRAME_CLR - FRAME_T and ESP_Y0 + ESP_Y + FRAME_CLR + FRAME_T <= CAV_Y1, \
@@ -255,21 +254,23 @@ def main():
         print(f"  {name}: intersection {vol:.6f} mm^3 ({'solid' if want_solid else 'open'})")
 
     print("probes:")
-    solid_probe(base, probe(-2, J1_Y, J1_Z), "J1 opening (-x wall)", False)
-    solid_probe(base, probe(116.3, USBC_Y, USBC_Z), "USB-C opening (+x wall)", False)
-    solid_probe(base, probe(5, -2, 10), "-y wall vent slot (x 4..6)", False)
-    solid_probe(base, probe(7, -2, 10), "-y wall between vent slots", True)
-    solid_probe(base, probe(-2, J1_Y, J1_Z + J1_H / 2 + 1), "J1 wall material above opening", True)
+    solid_probe(base, probe(CAV_X0 - WALL / 2, J1_Y, J1_Z), "J1 opening (-x wall)", False)
+    solid_probe(base, probe(CAV_X1 + WALL / 2, USBC_Y, USBC_Z), "USB-C opening (+x wall)", False)
+    solid_probe(base, probe(5, CAV_Y0 - WALL / 2, 10), "-y wall vent slot (x 4..6)", False)
+    solid_probe(base, probe(7, CAV_Y0 - WALL / 2, 10), "-y wall between vent slots", True)
+    solid_probe(base, probe(CAV_X0 - WALL / 2, J1_Y, J1_Z + J1_H / 2 + 1), "J1 wall material above opening", True)
     for x, y, r, pr in STANDOFFS:
         solid_probe(base, probe(x + (r + pr) / 2, y, 12, 0.4), f"standoff ring at ({x},{y})", True)
         solid_probe(base, probe(x, y, 12), f"standoff pilot at ({x},{y})", False)
-    solid_probe(lid_asm, probe(17, 13.5, INNER_TOP + 1), "radar window (lid plate, assembled)", False)
-    solid_probe(lid_asm, probe(60, 13.5, INNER_TOP + 1), "lid plate away from window", True)
-    solid_probe(lid_asm, probe(114.25, 40, 25), "lid skirt at +x wall", True)
-    solid_probe(lid_asm, probe(sum(J7_HOLE[:2]) / 2, sum(J7_HOLE[2:]) / 2, INNER_TOP + 1),
+    solid_probe(lid_asm, probe(27, 13.5, INNER_TOP + WALL / 2), "radar window (lid plate, assembled)", False)
+    solid_probe(lid_asm, probe(60, 13.5, INNER_TOP + WALL / 2), "lid plate away from window", True)
+    solid_probe(lid_asm, probe(CAV_X1 - LID_CLR - SKIRT_T / 2, 40, 25), "lid skirt at +x wall", True)
+    solid_probe(lid_asm, probe(sum(J7_HOLE[:2]) / 2, sum(J7_HOLE[2:]) / 2, INNER_TOP + WALL / 2),
                 "J7 lid opening", False)
-    solid_probe(lid_asm, probe(sum(ESP_HOLE[:2]) / 2, sum(ESP_HOLE[2:]) / 2, INNER_TOP + 1),
+    solid_probe(lid_asm, probe(sum(ESP_HOLE[:2]) / 2, sum(ESP_HOLE[2:]) / 2, INNER_TOP + WALL / 2),
                 "ESP32 lid opening", False)
+    solid_probe(base, probe(ESP_X0 + ESP_X / 2, ESP_Y0 + 1.3, FLOOR_T + 1.5), "under ESP pin row", False)
+    solid_probe(base, probe(ESP_X0 + ESP_X / 2, ESP_CY, FLOOR_T + 1), "ESP central rail", True)
 
     # Export
     meshes = {}
@@ -287,17 +288,17 @@ def main():
     fig = plt.figure(figsize=(16, 11))
     ax = fig.add_subplot(221, projection="3d")
     ax.add_collection3d(Poly3DCollection(bt, facecolor="#9aa", edgecolor="k", linewidth=0.05))
-    ax.set_xlim(-5, 120); ax.set_ylim(-5, 55); ax.set_zlim(-3, 30)
+    ax.set_xlim(-6, 130); ax.set_ylim(-5, 55); ax.set_zlim(-3, 30)
     ax.set_box_aspect((125, 60, 33)); ax.view_init(25, -60); ax.set_title("base (assembled frame)")
     ax = fig.add_subplot(222, projection="3d")
     ax.add_collection3d(Poly3DCollection(lt, facecolor="#caa", edgecolor="k", linewidth=0.05))
-    ax.set_xlim(-5, 120); ax.set_ylim(-55, 5); ax.set_zlim(0, 10)
+    ax.set_xlim(-6, 130); ax.set_ylim(-55, 5); ax.set_zlim(0, 10)
     ax.set_box_aspect((125, 60, 10)); ax.view_init(25, -60); ax.set_title("lid (exported, plate on z=0)")
     for sub, cols, labels, title in [(223, [0, 1], ("x", "y"), "base top view"),
                                      (224, [0, 2], ("x", "z"), "base side view from -y")]:
         a = fig.add_subplot(sub)
         a.add_collection(PolyCollection(bt[:, :, cols], facecolor="#9aa", edgecolor="k", linewidth=0.1))
-        a.set_xlim(-6, 120)
+        a.set_xlim(-6, 130)
         if cols == [0, 1]:
             a.set_ylim(-6, 55)
         else:
